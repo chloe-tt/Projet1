@@ -39,6 +39,20 @@ idBurger.addEventListener('click', (event) => {
 })
 
 
+//DARK MODE SCRIPT
+
+$("#darkTrigger").click(function(){
+	if ($("body").hasClass("dark")){
+		$("body").removeClass("dark");
+	}
+	else{
+		$("body").addClass("dark");
+	}
+});
+
+
+
+
 //AVIS CLIENTS INTRO
 
 
@@ -65,6 +79,11 @@ for (let i = 0; i < feedback.length; i++) {
 	template.parentNode.appendChild(clone);
 	
 }
+
+
+
+
+
 
 
 

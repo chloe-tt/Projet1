@@ -239,14 +239,14 @@ p.prixEnfant {
     text-align:center; 
 }
 a.bouton1 {
-    padding: 20px;  
+    padding: 5%;  
     background: #F76C6C; 
     color: white; 
     text-decoration: none;
     -moz-border-radius:12px 12px;
     -webkit-border-radius:10px 12px;
     border-radius:12px 12px;
-    font-size: 1.5em;
+    font-size: 1.3rem;
 }  
 a.bouton1:hover {
     background: #F75C6C; 
@@ -798,3 +798,87 @@ footer > ul {
         margin-bottom: 10px;
     }
 }
+
+
+/* DARK MODE CSS*/
+/* DARK MODE CSS*/
+/* DARK MODE CSS*/
+/* DARK MODE CSS*/
+/* DARK MODE CSS*/
+
+
+.dark {
+    background-color: #1E1F28;
+    color: #ffffff;
+  }
+  
+.dark header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background:#1E1F28;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2);
+}
+
+.dark .card-mob {
+    background-color: #;
+    color: #ffffff;
+  }
+
+.dark .container2 {
+    margin-top: 0;
+    font-size: 20px;
+    background-color: #1D1D27;
+}
+
+.dark .depart {
+    background-color: #191922;
+}
+
+.dark .CruiseDescription {
+    color: #AFAAA6;
+}
+
+.dark h4 {
+    color: #B6C1F1;
+}
+
+.dark h3 {
+    color: #D65E58;
+}
+
+.dark .reserve-button {
+    background-color: #D65E58;
+    border:#D65E58;
+    color: #FEF9ED;
+
+}
+
+.dark .bouton1 {
+    background-color: #D65E58;
+    border:#D65E58;
+    color: #FEF9ED;
+}
+
+.dark .prixAdulte {
+    color: #B6C1F1;
+}
+
+.dark .apartirde {
+    color: #B6C1F1;
+}
+
+.dark .para-color{
+    color: #B6C1F1;
+}
+
+.dark h1, .dark h2, .dark h2.SectionTitle, .dark h2.contact-title, .dark h2.title-Avis, .dark .name, .dark h5, .dark label, .dark .avisIntro {
+    color: #B6C1F1;
+}
+
+.dark form input{
+    background: #FEF9ED;
+}
+
+
+
