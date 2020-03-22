@@ -29,13 +29,22 @@
                 </div>
             </div>
             <div class="flex nav-button">
-                <button class="reserve-button">Réserver</button>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="darkTrigger">
+                        <input type="checkbox" id="darkTrigger" />
+                        <div class="slider round"></div>
+                  </label>
+                  <em>DARK MODE</em>
+                </div>
             </div>
             <div id="toggle-menu" class="mobile-menu-hidden">
                 <div class="flex burger-menu">
-                    <a href="#" title="Réserver">Nos croisières</a>
-                    <a href="#" title="Notre équipe">Notre équipe</a>
-                    <a href="#" title="Accès">Plan d'accès</a>
+                    <a href="#cruise" title="Réserver">Nos Croisières</a>
+                    <a href="#team" title="Notre équipe">Notre Equipe</a>
+                    <a href="#contactUs" title="contact-title">Nous Contacter</a>
+                    <a href="#findUs" title="Accès">Nous Trouver</a>
+                    <a href="#avisclient" title="title-Avis">Avis Clients</a>
+                    
                 </div>
             </div>
         </nav>
@@ -369,9 +378,6 @@
                     <i class="fab fa-twitter-square"></i>
                 </a>
             </li>
-            <li>
-                <p> <button class="btn" id="darkTrigger">Activer le thème sombre</button>  </p> 
-             </li>
         </ul>
     </footer>
     <script
