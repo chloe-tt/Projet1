@@ -1031,3 +1031,16 @@ em {
     color: #D65E58;
     text-transform: uppercase;
 }
+}
+
+@media screen and (max-width: 768px) {
+a.bouton1-mob {
+    padding: 20px;
+    background-color: #D65E58;
+    color: white;
+    text-decoration: none;
+    -moz-border-radius: 12px 12px;
+    -webkit-border-radius: 10px 12px;
+    border-radius: 12px 12px;
+}
+}
